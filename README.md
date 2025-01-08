@@ -1,2 +1,2 @@
-# comp3134Winter2025
+# Hello! My name is Daniel Lipari.
 My GitHub Repository for COMP3134
