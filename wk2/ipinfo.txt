@@ -1,0 +1,19 @@
+Domain		IP address			Type	Hosted by	Location
+google.ca	142.251.32.35			IPv4	Google LLC	United States of America
+		2607:f8b0:4005:801::2003	IPv6	Google LLC	United States of America
+
+youtube.com	142.250.189.174			IPv4	Google LLC	United States of America
+		2607:f8b0:4005:80c::200e	IPv6	Google LLC	United States of America
+
+x.com		104.244.42.129			IPv4	Twitter Inc.	United States of America
+
+georgebrown.ca	198.96.86.176			IPv4	George Brown    Canada
+							College of
+							Applied Arts
+							and Technology
+
+twitch.tv	151.101.130.167	IPv4			Fastly, Inc.	United States of America
+		151.101.2.167	IPv4			Fastly, Inc.	United States of America
+		151.101.66.167	IPv4			Fastly, Inc.	United States of America
+		151.101.194.167	IPv4			Fastly, Inc.	United States of America
+

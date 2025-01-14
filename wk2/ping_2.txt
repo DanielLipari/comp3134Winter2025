@@ -1,0 +1,13 @@
+Amy@DESKTOP-14JE9CE MINGW64 ~
+$ ping 178.128.239.226
+
+Pinging 178.128.239.226 with 32 bytes of data:
+Reply from 178.128.239.226: bytes=32 time=14ms TTL=55
+Reply from 178.128.239.226: bytes=32 time=27ms TTL=55
+Reply from 178.128.239.226: bytes=32 time=17ms TTL=55
+Reply from 178.128.239.226: bytes=32 time=23ms TTL=55
+
+Ping statistics for 178.128.239.226:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 14ms, Maximum = 27ms, Average = 20ms
