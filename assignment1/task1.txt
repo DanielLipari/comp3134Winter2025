@@ -1,0 +1,10 @@
+Company: Google Inc. (Alphabet)
+No. of Employees: 182,502
+CEO: Sundar Pichai
+CFO: Anat Ashkenazi
+President: Ruth Porat
+Current Job Postings: 
+  - Software Engineer, Mountain View
+  - Data Scientist, New York
+  - UX Designer, Remote
+Headquarter Locations: 1600 Amphitheatre Parkway, Mountain View, CA 94043

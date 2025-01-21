@@ -1,0 +1,12 @@
+PS C:\Users\Reina> ping google.ca
+
+Pinging google.ca [2607:f8b0:400b:803::2003] with 32 bytes of data:
+Reply from 2607:f8b0:400b:803::2003: time=14ms
+Reply from 2607:f8b0:400b:803::2003: time=13ms
+Reply from 2607:f8b0:400b:803::2003: time=29ms
+Reply from 2607:f8b0:400b:803::2003: time=23ms
+
+Ping statistics for 2607:f8b0:400b:803::2003:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 13ms, Maximum = 29ms, Average = 19ms
