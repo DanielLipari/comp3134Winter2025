@@ -1,0 +1,36 @@
+root@COMP3134:~# tcpdump -i eth0 src 178.128.239.226
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:11:04.525689 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 458557862:458557990, ack 3798861710, win 501, options [nop,nop,TS val 2184645102 ecr 793778010], length 128
+00:11:04.525765 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 128:192, ack 1, win 501, options [nop,nop,TS val 2184645102 ecr 793778010], length 64
+00:11:04.525814 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 192:272, ack 1, win 501, options [nop,nop,TS val 2184645103 ecr 793778010], length 80
+00:11:04.525851 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 272:352, ack 1, win 501, options [nop,nop,TS val 2184645103 ecr 793778010], length 80
+00:11:04.525883 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 352:432, ack 1, win 501, options [nop,nop,TS val 2184645103 ecr 793778010], length 80
+00:11:04.525910 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 432:496, ack 1, win 501, options [nop,nop,TS val 2184645103 ecr 793778010], length 64
+00:11:04.627616 IP COMP3134.57498 > 67.207.67.2.domain: 48236+ PTR? 66.188.243.162.in-addr.arpa. (45)
+00:11:04.627720 IP COMP3134.58884 > 67.207.67.2.domain: 59052+ [1au] PTR? 66.188.243.162.in-addr.arpa. (56)
+00:11:04.627777 IP COMP3134.56432 > 67.207.67.2.domain: Flags [S], seq 3346586250, win 64240, options [mss 1460,sackOK,TS val 3051253429 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+00:11:04.630006 IP COMP3134.56432 > 67.207.67.2.domain: Flags [.], ack 692180365, win 502, options [nop,nop,TS val 3051253432 ecr 4275945428], length 0
+00:11:04.630032 IP COMP3134.58884 > 67.207.67.2.domain: 59052+ PTR? 66.188.243.162.in-addr.arpa. (45)
+00:11:04.630054 IP COMP3134.56432 > 67.207.67.2.domain: Flags [P.], seq 0:47, ack 1, win 502, options [nop,nop,TS val 3051253432 ecr 4275945428], length 47 1060+ PTR? 66.188.243.162.in-addr.arpa. (45)
+00:11:04.631281 IP COMP3134.56432 > 67.207.67.2.domain: Flags [.], ack 115, win 502, options [nop,nop,TS val 3051253433 ecr 4275945430], length 0
+00:11:04.631798 IP COMP3134.43547 > 67.207.67.2.domain: 19844+ [1au] PTR? 226.239.128.178.in-addr.arpa. (57)
+00:11:04.632944 IP COMP3134.43547 > 67.207.67.2.domain: 19844+ PTR? 226.239.128.178.in-addr.arpa. (46)
+00:11:04.634560 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 496:1536, ack 1, win 501, options [nop,nop,TS val 2184645211 ecr 793778035], length 1040
+00:11:04.731490 IP COMP3134.52911 > 67.207.67.2.domain: 7902+ PTR? 2.67.207.67.in-addr.arpa. (42)
+00:11:04.731587 IP COMP3134.43367 > 67.207.67.2.domain: 11698+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+00:11:04.731627 IP COMP3134.56432 > 67.207.67.2.domain: Flags [P.], seq 47:91, ack 115, win 502, options [nop,nop,TS val 3051253533 ecr 4275945430], length 44 26685+ PTR? 2.67.207.67.in-addr.arpa. (42)
+00:11:04.732756 IP COMP3134.56432 > 67.207.67.2.domain: Flags [.], ack 226, win 502, options [nop,nop,TS val 3051253534 ecr 4275945531], length 0
+00:11:04.732954 IP COMP3134.43367 > 67.207.67.2.domain: 11698+ PTR? 2.67.207.67.in-addr.arpa. (42)
+00:11:04.735109 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 1536:2976, ack 1, win 501, options [nop,nop,TS val 2184645312 ecr 793778150], length 1440
+00:11:04.835197 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 2976:3856, ack 1, win 501, options [nop,nop,TS val 2184645412 ecr 793778249], length 880
+00:11:04.939130 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 3856:4080, ack 1, win 501, options [nop,nop,TS val 2184645516 ecr 793778348], length 224
+00:11:05.043101 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 4080:4304, ack 1, win 501, options [nop,nop,TS val 2184645620 ecr 793778447], length 224
+00:11:05.147350 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 4304:4528, ack 1, win 501, options [nop,nop,TS val 2184645724 ecr 793778551], length 224
+00:11:05.251096 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 4528:4752, ack 1, win 501, options [nop,nop,TS val 2184645828 ecr 793778658], length 224
+00:11:05.355084 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 4752:4976, ack 1, win 501, options [nop,nop,TS val 2184645932 ecr 793778759], length 224
+00:11:05.448163 IP COMP3134.ssh > 178.128.111.98.35974: Flags [P.], seq 1453760503:1453760555, ack 1924499289, win 502, options [nop,nop,TS val 1767934204 ecr 1002989661], length 52
+^C
+29 packets captured
+38 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,44 @@
+root@COMP3134:~# tcpdump -n -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:07:48.179852 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 458526070:458526198, ack 3798859390, win 501, options [nop,nop,TS val 2184448757 ecr 793581664], length 128
+00:07:48.179960 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 128:272, ack 1, win 501, options [nop,nop,TS val 2184448757 ecr 793581664], length 144
+00:07:48.180027 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 272:352, ack 1, win 501, options [nop,nop,TS val 2184448757 ecr 793581664], length 80
+00:07:48.180056 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 352:432, ack 1, win 501, options [nop,nop,TS val 2184448757 ecr 793581664], length 80
+00:07:48.180100 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 432:496, ack 1, win 501, options [nop,nop,TS val 2184448757 ecr 793581664], length 64
+00:07:48.183659 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 0, win 1702, options [nop,nop,TS val 793581679 ecr 2184448748], length 0
+00:07:48.192699 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 128, win 1702, options [nop,nop,TS val 793581688 ecr 2184448757], length 0
+00:07:48.192699 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 272, win 1702, options [nop,nop,TS val 793581688 ecr 2184448757], length 0
+00:07:48.192699 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 352, win 1702, options [nop,nop,TS val 793581688 ecr 2184448757], length 0
+00:07:48.192700 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 432, win 1702, options [nop,nop,TS val 793581688 ecr 2184448757], length 0
+00:07:48.192700 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 496, win 1702, options [nop,nop,TS val 793581688 ecr 2184448757], length 0
+00:07:48.225669 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [P.], seq 1:33, ack 496, win 1702, options [nop,nop,TS val 793581721 ecr 2184448757], length 32
+00:07:48.225791 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [P.], seq 33:65, ack 496, win 1702, options [nop,nop,TS val 793581721 ecr 2184448757], length 32
+00:07:48.225815 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [.], ack 65, win 501, options [nop,nop,TS val 2184448802 ecr 793581721], length 0
+00:07:48.279499 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 496:2800, ack 65, win 501, options [nop,nop,TS val 2184448856 ecr 793581721], length 2304
+00:07:48.293123 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 2800, win 1702, options [nop,nop,TS val 793581788 ecr 2184448856], length 0
+00:07:48.383176 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 2800:3184, ack 65, win 501, options [nop,nop,TS val 2184448960 ecr 793581788], length 384
+00:07:48.436321 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 3184, win 1702, options [nop,nop,TS val 793581932 ecr 2184448960], length 0
+00:07:48.487083 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 3184:3568, ack 65, win 501, options [nop,nop,TS val 2184449064 ecr 793581932], length 384
+00:07:48.500187 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 3568, win 1702, options [nop,nop,TS val 793581996 ecr 2184449064], length 0
+00:07:48.591131 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 3568:3952, ack 65, win 501, options [nop,nop,TS val 2184449168 ecr 793581996], length 384
+00:07:48.604084 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 3952, win 1702, options [nop,nop,TS val 793582100 ecr 2184449168], length 0
+00:07:48.695221 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 3952:4336, ack 65, win 501, options [nop,nop,TS val 2184449272 ecr 793582100], length 384
+00:07:48.707925 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 4336, win 1702, options [nop,nop,TS val 793582203 ecr 2184449272], length 0
+00:07:48.799122 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 4336:4720, ack 65, win 501, options [nop,nop,TS val 2184449376 ecr 793582203], length 384
+00:07:48.811910 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 4720, win 1702, options [nop,nop,TS val 793582307 ecr 2184449376], length 0
+00:07:48.903133 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 4720:5104, ack 65, win 501, options [nop,nop,TS val 2184449480 ecr 793582307], length 384
+00:07:48.915768 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 5104, win 1702, options [nop,nop,TS val 793582411 ecr 2184449480], length 0
+00:07:49.007182 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 5104:5488, ack 65, win 501, options [nop,nop,TS val 2184449584 ecr 793582411], length 384
+00:07:49.021568 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 5488, win 1702, options [nop,nop,TS val 793582517 ecr 2184449584], length 0
+00:07:49.111106 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 5488:5872, ack 65, win 501, options [nop,nop,TS val 2184449688 ecr 793582517], length 384
+00:07:49.129131 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 5872, win 1702, options [nop,nop,TS val 793582623 ecr 2184449688], length 0
+00:07:49.215151 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 5872:6256, ack 65, win 501, options [nop,nop,TS val 2184449792 ecr 793582623], length 384
+00:07:49.229330 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 6256, win 1702, options [nop,nop,TS val 793582725 ecr 2184449792], length 0
+00:07:49.319156 IP 178.128.239.226.22 > 162.243.188.66.26662: Flags [P.], seq 6256:6640, ack 65, win 501, options [nop,nop,TS val 2184449896 ecr 793582725], length 384
+00:07:49.335984 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [.], ack 6640, win 1702, options [nop,nop,TS val 793582831 ecr 2184449896], length 0
+00:07:49.417570 IP 162.243.188.66.26662 > 178.128.239.226.22: Flags [P.], seq 65:97, ack 6640, win 1702, options [nop,nop,TS val 793582913 ecr 2184449896], length 32
+^C
+37 packets captured
+40 packets received by filter
+0 packets dropped by kernel

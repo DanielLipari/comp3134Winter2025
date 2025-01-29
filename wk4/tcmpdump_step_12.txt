@@ -1,0 +1,35 @@
+root@COMP3134:~# tcpdump -i eth0 dst 178.128.239.226
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:11:58.259749 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 458577638, win 1702, options [nop,nop,TS val 793831755 ecr 2184698824], length 0
+00:11:58.264212 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 129, win 1702, options [nop,nop,TS val 793831759 ecr 2184698826], length 0
+00:11:58.264348 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 193, win 1702, options [nop,nop,TS val 793831759 ecr 2184698826], length 0
+00:11:58.264348 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 273, win 1702, options [nop,nop,TS val 793831759 ecr 2184698826], length 0
+00:11:58.264348 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 353, win 1702, options [nop,nop,TS val 793831759 ecr 2184698826], length 0
+00:11:58.264349 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 433, win 1702, options [nop,nop,TS val 793831760 ecr 2184698826], length 0
+00:11:58.264349 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 497, win 1702, options [nop,nop,TS val 793831760 ecr 2184698826], length 0
+00:11:58.352988 IP 67.207.67.2.domain > COMP3134.56270: 43574 NXDomain 0/1/1 (124)
+00:11:58.354165 IP 67.207.67.2.domain > COMP3134.56270: 43574 NXDomain 0/1/0 (113)
+00:11:58.356128 IP 67.207.67.2.domain > COMP3134.54268: 35225 NXDomain 0/1/0 (112)
+00:11:58.356227 IP 67.207.67.2.domain > COMP3134.58929: 46589 NXDomain 0/1/1 (123)
+00:11:58.356336 IP 67.207.67.2.domain > COMP3134.59014: Flags [P.], seq 3659279785:3659279899, ack 3116658402, win 128, options [nop,nop,TS val 4275999155 ecr 3051307157], length 114 43122 NXDomain 0/1/0 (112)
+00:11:58.357251 IP 67.207.67.2.domain > COMP3134.58929: 46589 NXDomain 0/1/0 (112)
+00:11:58.373044 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 1585, win 1702, options [nop,nop,TS val 793831868 ecr 2184698935], length 0
+00:11:58.456486 IP 67.207.67.2.domain > COMP3134.37307: 24808 NXDomain 0/1/1 (120)
+00:11:58.456684 IP 67.207.67.2.domain > COMP3134.59014: Flags [P.], seq 114:225, ack 45, win 128, options [nop,nop,TS val 4275999255 ecr 3051307257], length 111 4924 NXDomain 0/1/0 (109)
+00:11:58.456988 IP 67.207.67.2.domain > COMP3134.35219: 32336 NXDomain 0/1/0 (109)
+00:11:58.457577 IP 67.207.67.2.domain > COMP3134.37307: 24808 NXDomain 0/1/0 (109)
+00:11:58.474399 IP 185.196.8.177.2008 > COMP3134.56412: Flags [P.], seq 726315606:726316004, ack 1194762525, win 504, options [nop,nop,TS val 2844565771 ecr 363540380], length 398
+00:11:58.479527 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 2417, win 1702, options [nop,nop,TS val 793831975 ecr 2184699035], length 0
+00:11:58.560804 IP 67.207.67.2.domain > COMP3134.36942: 24376 NXDomain 0/1/0 (121)
+00:11:58.560884 IP 67.207.67.2.domain > COMP3134.44964: 45299 NXDomain 0/1/1 (132)
+00:11:58.561162 IP 67.207.67.2.domain > COMP3134.59014: Flags [P.], seq 225:348, ack 91, win 128, options [nop,nop,TS val 4275999360 ecr 3051307362], length 123 56581 NXDomain 0/1/0 (121)
+00:11:58.562028 IP 67.207.67.2.domain > COMP3134.44964: 45299 NXDomain 0/1/0 (121)
+00:11:58.583030 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 2913, win 1702, options [nop,nop,TS val 793832078 ecr 2184699136], length 0
+00:11:58.585140 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 3297, win 1702, options [nop,nop,TS val 793832080 ecr 2184699139], length 0
+00:11:58.680661 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 4097, win 1702, options [nop,nop,TS val 793832176 ecr 2184699240], length 0
+00:11:58.784496 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 4305, win 1702, options [nop,nop,TS val 793832280 ecr 2184699344], length 0
+^C
+28 packets captured
+31 packets received by filter
+0 packets dropped by kernel

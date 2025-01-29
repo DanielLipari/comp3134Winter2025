@@ -1,0 +1,16 @@
+root@COMP3134:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet), snapshot length 262144
+00:05:38.767021 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 458517894:458517958, ack 3798854494, win 501, options [nop,nop,TS val 2184319344 ecr 793452234], length 64
+00:05:38.767084 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 64:144, ack 1, win 501, options [nop,nop,TS val 2184319344 ecr 793452234], length 80
+00:05:38.767198 IP COMP3134.ssh > 162.243.188.66.26662: Flags [P.], seq 144:368, ack 1, win 501, options [nop,nop,TS val 2184319344 ecr 793452234], length 224
+00:05:38.768465 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 0, win 1702, options [nop,nop,TS val 793452264 ecr 2184319332], length 0
+00:05:38.781717 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 64, win 1702, options [nop,nop,TS val 793452277 ecr 2184319344], length 0
+00:05:38.781718 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 144, win 1702, options [nop,nop,TS val 793452277 ecr 2184319344], length 0
+00:05:38.781718 IP 162.243.188.66.26662 > COMP3134.ssh: Flags [.], ack 368, win 1702, options [nop,nop,TS val 793452277 ecr 2184319344], length 0
+00:05:40.443216 IP 185.196.8.177.2008 > COMP3134.56412: Flags [P.], seq 726298890:726299288, ack 1194762525, win 504, options [nop,nop,TS val 2844187738 ecr 363162379], length 398
+00:05:40.443284 IP COMP3134.56412 > 185.196.8.177.2008: Flags [.], ack 398, win 3744, options [nop,nop,TS val 363172400 ecr 2844187738], length 0
+00:05:46.056472 IP scanner-20.ch1.censys-scanner.com.48988 > COMP3134.3029: Flags [S], seq 2869305898, win 21900, options [mss 1460,sackOK,TS val 3240480065 ecr 0,nop,wscale 10], length 0
+00:05:47.067049 IP scanner-20.ch1.censys-scanner.com.48988 > COMP3134.3029: Flags [S], seq 2869305898, win 21900, options [mss 1460,sackOK,TS val 3240481075 ecr 0,nop,wscale 10], length 0
+00:05:47.090235 IP scanner-20.ch1.censys-scanner.com.46462 > COMP3134.3029: Flags [S], seq 4213230272, win 21900, options [mss 1460,sackOK,TS val 3240481099 ecr 0,nop,wscale 10], length 0
+00:05:48.154628 IP scanner-20.ch1.censys-scanner.com.46462 > COMP3134.3029: Flags [S], seq 4213230272, win 21900, options [mss 1460,sackOK,TS val 3240482164 ecr 0,nop,wscale 10], length 0
+00:05:48.162751 IP scanner-20.ch1.censys-scanner.com.46476 > COMP3134.3029: Flags [S], seq 622205235, win 21900, options [mss 1460,sackOK,TS val 3240482172 ecr 0,nop,wscale 10], length 0
